@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > hawk:
+        patched: '2020-07-18T21:13:27.617Z'
+  'npm:http-signature:20150122':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > http-signature:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > http-signature:
+        patched: '2020-07-18T21:13:27.617Z'
+  'npm:mime:20170907':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > form-data > mime:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > form-data > mime:
+        patched: '2020-07-18T21:13:27.617Z'
+  'npm:minimatch:20160620':
+    - dalekjs > glob > minimatch:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > archiver > glob > minimatch:
+        patched: '2020-07-18T21:13:27.617Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2020-07-18T21:13:27.617Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2020-07-18T21:13:27.617Z'
+  'npm:request:20160119':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request:
+        patched: '2020-07-18T21:13:27.617Z'
+  'npm:tunnel-agent:20170305':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2020-07-18T21:13:27.617Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > tunnel-agent:
+        patched: '2020-07-18T21:13:27.617Z'
