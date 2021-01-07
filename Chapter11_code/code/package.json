@@ -24,7 +24,7 @@
     "mongodb": "1.4.25",
     "ractive": "0.6.1",
     "sha1": "1.1.0",
-    "socket.io": "1.3.3",
+    "socket.io": "2.4.0",
     "dalekjs": "0.0.9",
     "dalek-browser-chrome": "0.0.11"
   }
